@@ -1,0 +1,253 @@
+/* 設定字形&導航列*/
+@font-face {
+    font-family: "myFont";
+    src: url("./AlibabaSansTC-75/AlibabaSansTC-75.ttf");
+}
+
+nav {
+    background-color:   rgb(59,57,94);
+}
+
+header a,button {
+    color: rgb(130,168,75) !important;
+}
+
+div {
+    font-family: "myFont";
+}
+footer {
+    font-family: "myFont";
+}
+
+/* 文字垂直 */
+/* .section1title {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+} */
+
+/* 彈窗 */
+/* 隐藏弹窗 */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* 背景半透明 */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 350px !important;
+  }
+  
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+/* 產品hover */
+#womanProduct {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/woman2.png");
+}
+#coupleProduct {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/couple2.png");
+}
+#accessoryProduct {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/accessory2.png");
+}
+
+
+/* 跑馬燈 */
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee-content2 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee2 10s linear infinite;
+}
+
+.marquee-content3 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee3 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee3 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* body */
+
+#imgbtn {
+    background-color: rgb(59,57,94);
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    padding-top: 50px;
+}
+
+#test1:hover img {
+    visibility: hidden;
+}
+
+#cloth11 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/woman/17-4.jpg");
+}
+
+#cloth9 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/9-4.jpg");
+}
+
+#cloth6 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/6-5.jpg");
+}
+
+
+/* ig */
+
+#igLove {
+    font-size: 50px;
+    line-height: 350px;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+}
+
+#ig1 {
+    background-image: url("./img/ig/1.jpg");
+}
+
+#ig2 {
+    background-image: url("./img/ig/2.jpg");
+}
+
+#ig3 {
+    background-image: url("./img/ig/3.jpg");
+}
+
+#ig4 {
+    background-image: url("./img/ig/4.jpg");
+}
+
+#ig5 {
+    background-image: url("./img/ig/5.jpg");
+}
+
+#ig6 {
+    background-image: url("./img/ig/6.jpg");
+}
+
+#ig7 {
+    background-image: url("./img/ig/7.jpg");
+}
+
+#ig8 {
+    background-image: url("./img/ig/8.jpg");
+}
+
+.igroup {
+    background-repeat: no-repeat;
+    background-position: fill;
+    background-size: contain;
+}
+
+.igroup:hover i {
+    visibility: visible;
+}
+
+/* footer */
+footer {
+    background-color: rgb(59, 57, 94);
+    color: rgb(130, 168, 75);
+}
+
+
+footer a {
+    color: rgb(130, 168, 75) !important;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

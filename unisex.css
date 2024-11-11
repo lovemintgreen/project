@@ -1,0 +1,110 @@
+/* 設定字形&導航列*/
+@font-face {
+    font-family: "myFont";
+    src: url("./AlibabaSansTC-75/AlibabaSansTC-75.ttf");
+}
+
+nav {
+    background-color:   rgb(59,57,94);
+}
+
+header a,button {
+    color: rgb(130,168,75) !important;
+}
+
+div {
+    font-family: "myFont";
+}
+footer {
+    font-family: "myFont";
+}
+
+
+body {
+    padding-top: 80px;
+}
+#test1:hover img {
+    visibility: hidden;
+}
+
+#test1:hover #producttitle {
+    text-decoration: underline;
+}
+
+#producttitle {
+    text-decoration: none;
+}
+
+#cloth1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/1-5.jpg");
+}
+#cloth2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/2-6.jpg");
+}
+#cloth3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/3-5.jpg");
+}
+#cloth4 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/4-2.jpg");
+}
+#cloth5 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/5-6.jpg");
+}
+#cloth6 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/6-5.jpg");
+}
+#cloth7 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/7-5.jpg");
+}
+#cloth8 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/8-4.jpg");
+}
+#cloth9 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/9-4.jpg");
+}
+#cloth10 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/10-3.jpg");
+}
+#cloth11 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/11-4.jpg");
+}
+#cloth12 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/unisex/12-3.jpg");
+}
+

@@ -1,0 +1,124 @@
+/* 設定字形&導航列*/
+@font-face {
+    font-family: "myFont";
+    src: url("./AlibabaSansTC-75/AlibabaSansTC-75.ttf");
+}
+
+nav {
+    background-color:   rgb(59,57,94);
+}
+
+header a,button {
+    color: rgb(130,168,75) !important;
+}
+
+div {
+    font-family: "myFont";
+}
+footer {
+    font-family: "myFont";
+}
+
+body {
+    padding-top: 80px;
+}
+
+
+#test1:hover img {
+    visibility: hidden;
+}
+
+
+#test1:hover #producttitle {
+    text-decoration: underline;
+}
+
+#producttitle {
+    text-decoration: none;
+}
+
+#cloth1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/1-4.jpg");
+}
+#cloth2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/2-3.jpg");
+}
+#cloth3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/3-5.jpg");
+}
+#cloth4 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/4-4.jpg");
+}
+#cloth5 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/5-4.jpg");
+}
+#cloth6 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/6-5.jpg");
+}
+#cloth7 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/7-4.jpg");
+}
+#cloth8 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/8-4.jpg");
+}
+#cloth9 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/10-3.jpg");
+}
+#cloth10 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/9-4.jpg");
+}
+#cloth11 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/10-3.jpg");
+}
+#cloth12 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/11-4.jpg");
+}
+#cloth13 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/12-3.jpg");
+}
+#cloth14 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("./img/cloth/accessory/13-3.jpg");
+}
+

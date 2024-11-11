@@ -1,0 +1,169 @@
+/* 設定字形&導航列*/
+@font-face {
+    font-family: "myFont";
+    src: url("./AlibabaSansTC-75/AlibabaSansTC-75.ttf");
+}
+
+nav {
+    background-color:   rgb(59,57,94);
+}
+
+header a,button {
+    color: rgb(130,168,75) !important;
+}
+
+div {
+    font-family: "myFont";
+}
+footer {
+    font-family: "myFont";
+}
+
+.article {
+    margin: 0 auto;
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.section1 {
+    background-image: url("./img/cloth/woman/17-2.jpg");
+}
+
+.section2 {
+    background-image: url("./img/cloth/woman/17-1.jpg");
+}
+
+.section3 {
+    background-image: url("./img/cloth/woman/17-4.jpg");
+}
+
+#text {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+}
+
+#productQuantity {
+    width: 50px;
+    border: 0px;
+    text-align: center;
+}
+
+#decreaseQuantity,#increaseQuantity {
+    border: 2px solid  rgb(59,57,94);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    width: 30px;
+}
+
+#addToCartBtn,#addToBuy {
+    padding: 5px;
+    margin: 10px;
+    width: 150px;
+    background-color: rgb(59,57,94);
+    color: rgb(130,168,75);
+}
+#addToBuy {
+    background-color: brown;
+}
+
+#notic,#sizeInf {
+    border: 0px;
+    background-color: white;
+    color: black !important;
+}
+
+#notic,#sizeInf:hover {
+    text-decoration: underline;
+}
+
+
+/* 購物車 */
+
+.cart-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0, 0, 0); 
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding-top: 60px;
+}
+
+.cart-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 500px; 
+    border-radius: 10px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#checkoutBtn {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color:rgb(59,57,94);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#cartItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cartItems li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cart-item-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.cart-item-buttons button {
+    padding: 5px 10px;
+    background-color:rgb(59,57,94);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-item-buttons button.remove {
+    background-color: #dc3545;
+    border: 1px solid black;
+}
+
+.cart-modal-content>h2 {
+    text-align: center;
+}

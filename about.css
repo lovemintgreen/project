@@ -1,0 +1,66 @@
+/* 設定字形&導航列*/
+@font-face {
+    font-family: "myFont";
+    src: url("./AlibabaSansTC-75/AlibabaSansTC-75.ttf");
+}
+
+nav {
+    background-color:   rgb(59,57,94);
+}
+
+header a,button {
+    color: rgb(130,168,75) !important;
+}
+
+div {
+    font-family: "myFont";
+}
+footer {
+    font-family: "myFont";
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+aside li {
+    font-size: 20px;
+    padding: 8px;
+    list-style-type: none;
+}
+
+aside {
+    width: 250px;
+    padding-top:  80px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+main {
+    width: 100%;
+    padding: 80px 20px;
+    border: 1px solid black;
+}
+
+#introduction {
+    display: flex;
+}
+
+aside li:hover {
+    text-decoration: underline;
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+form>input,textarea {
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}

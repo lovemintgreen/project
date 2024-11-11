@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>home</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- 彈窗廣告 -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <img src="./img/優惠券.jpg" width="300px">
+      <span class="close">&times;</span>
+    </div>
+  </div>
+  <header>
+    <!-- 導航列 -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a href="./home.html"><img src="./img/GM2305268989516_1941703.jpg" height="30px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-3"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">關於</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                產品
+              </a>
+              <ul class="dropdown-menu" style="background-color: rgb(59,57,94);">
+                <li><a class="dropdown-item" href="./woman.html">女裝</a></li>
+                <li><a class="dropdown-item" href="./unisex.html">中性/情侶</a></li>
+                <li><a class="dropdown-item" href="./accessory.html">飾品</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="position-absolute bottom-0 end-0 btn fs-4"><i class="bi bi-cart-fill"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- 圖片輪播 -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="./加入會員.html"><img src="./img/加入會員.jpg" class="d-block w-100"></a>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/下單須知.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/防詐.jpg" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- 跑馬燈 -->
+  <div class="marquee-container p-3 bg-dark text-white">
+    <div class="marquee-content">
+      新品上架！ 秋冬季時尚單品已經上線，立即選購，搶先體驗潮流風格！
+    </div>
+    <div class="marquee-content2">
+      限時優惠！ 全場商品最高享 20% 折扣，本週結束，快來搶購！
+    </div>
+    <div class="marquee-content3">
+      會員專屬福利！ 註冊會員，享受免費送貨及每月專屬折扣！
+    </div>
+  </div>
+  <img src="./img/Gray Elegant Fashion Photo Collage.png" class="w-100">
+
+  <!-- 區塊一 產品 -->
+  <div class="section1 row">
+    <h1 class="section1title text-center m-3" style="color: rgb(59,57,94);">產品</h1>
+    <div class="row row-cols-1 row-cols-lg-3">
+      <div class="col" id="test1">
+        <div class="p-2 m-2"><a href="./woman.html" target="_blank" class="text-dark text-decoration-none">
+            <div id="womanProduct"><img src="./img/woman.png" class="img-fluid"></div>
+            <h5 class="text-center">女性</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col" id="test1">
+        <div class="p-2 m-2"><a href="./unisex.html" target="_blank" class="text-dark text-decoration-none">
+            <div id="coupleProduct"><img src="./img/couple.png" class="img-fluid"></div>
+            <h5 class="text-center">中性/情侶</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col" id="test1">
+        <div class="p-2 m-2"><a href="./accessory.html" target="_blank" class="text-dark text-decoration-none">
+            <div id="accessoryProduct"><img src="./img/accessory.png" class="img-fluid"></div>
+            <h5 class="text-center">飾品</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 區塊二 熱銷商品Top3 -->
+    <div class="section2">
+      <div class="p-5 container text-center">
+        <h1 style="color: rgb(59,57,94);">熱銷商品Top3</h1>
+        <div class="row row-cols-1 row-cols-lg-3">
+          <div class="col" id="test1">
+            <div class="p-2 m-2"><a href="./product2.html" target="_blank" class="text-dark text-decoration-none">
+                <div id="cloth11"><img src="./img/cloth/woman/17-2.jpg" class="img-fluid"></div>
+                <h5>美式辣妹半高領短版T恤</h5>
+              </a>
+              <span>S M L</span>
+              <p>NT.79</p>
+            </div>
+          </div>
+          <div class="col" id="test1">
+            <div class="p-2 m-2"><a href="http://www.google.com.tw" target="_blank"
+                class="text-dark text-decoration-none">
+                <div id="cloth9"><img src="./img/cloth/unisex/9-3.jpg" class="img-fluid"></div>
+                <h5>水洗十字架復古無袖背心</h5>
+              </a>
+              <span>S M L</span>
+              <p>NT.380</p>
+            </div>
+          </div>
+          <div class="col" id="test1">
+            <div class="p-2 m-2"><a href="http://www.google.com.tw" target="_blank"
+                class="text-dark text-decoration-none">
+                <div id="cloth6"><img src="./img/cloth/accessory/6-2.jpg" class="img-fluid"></div>
+                <h5>哥德風串珠十字架項鍊</h5>
+              </a>
+              <p>NT.129</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 實拍分享 -->
+    <div class="section2 container">
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+        <div class="col-2 fs-2 text-center"style="color: rgb(59,57,94);"><i class="bi bi-instagram"></i> instagram</div>
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <br>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ms-5">
+        <div class="col igroup" id="ig1"><a
+            href="https://www.instagram.com/p/C1jt-5vP2L_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank">
+            <div id="igLove"><i class="bi bi-heart"></i></div>
+          </a></div>
+        <div class="col igroup" id="ig2"><a
+            href="https://www.instagram.com/p/CvCCQTGPm4U/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank">
+            <div id="igLove"><i class="bi bi-heart"></i></div>
+          </a></div>
+        <div class="col igroup" id="ig3"><a
+            href="https://www.instagram.com/p/Cv6lEfPvqmS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank">
+            <div id="igLove"><i class="bi bi-heart"></i></div>
+          </a></div>
+        <div class="col igroup" id="ig4"><a
+            href="https://www.instagram.com/p/Cqw4pImvYyL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank">
+            <div id="igLove"><i class="bi bi-heart"></i></div>
+          </a></div>
+      </div>
+      <br>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ms-5">
+        <div class="col igroup" id="ig5"><a
+            href="https://www.instagram.com/p/Cls2JMKPj15/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank">
+            <div id="igLove"><i class="bi bi-heart"></i></div>
+          </a></div>
+        <div class="col igroup" id="ig6"><a
+            href="https://www.instagram.com/p/CkLIRlkPaXu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank">
+            <div id="igLove"><i class="bi bi-heart"></i></div>
+          </a></div>
+        <div class="col igroup" id="ig7"><a
+            href="https://www.instagram.com/p/CaL7bw4P3BR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank">
+            <div id="igLove"><i class="bi bi-heart"></i></div>
+          </a></div>
+        <div class="col igroup" id="ig8"><a
+            href="https://www.instagram.com/p/CPzK-dwBD3k/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank">
+            <div id="igLove"><i class="bi bi-heart"></i></div>
+          </a></div>
+      </div>
+      <br>
+    </div>
+    <hr>
+    <!-- footer -->
+    <footer id="footer" class="p-5 row ">
+      <div class="col">
+        <p>About</p>
+        <hr>
+        <a href="./about.html" class="d-block footerlink">關於</a>
+        <a href="./加入會員.html" class="d-block">加入會員</a>
+        <a href="./常見問題Q&A.html" class="d-block">常見問題</a>
+      </div>
+      <div class="col">
+        <p>Product</p>
+        <hr>
+        <a href="./woman.html" class="d-block">女性</a>
+        <a href="./unisex.html" class="d-block">中性/情侶</a>
+        <a href="./accessory.html" class="d-block">飾品</a>
+      </div>
+      <div class="col">
+        <p>Contract</p>
+        <hr>
+        <a href="https://www.instagram.com/nse__shop_tw/" target="_blank"><i class="bi bi-instagram fs-3"></i></a>
+        <a href="https://www.threads.net/@nse__shop_tw?hl=zh-tw" target="_blank"><i
+            class="bi bi-threads-fill fs-3"></i></a>
+        <a href="https://shopee.tw/mds8787520?categoryId=100017&entryPoint=ShopByPDP&itemId=29951666495"
+          target="_blank"><i class="bi bi-shop fs-3"></i></a>
+        <br>
+      </div>
+    </footer>
+    <div>
+
+    </div>
+    <script src="./product.js"></script>
+</body>
+
+</html>
